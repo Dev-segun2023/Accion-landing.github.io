@@ -1,0 +1,3 @@
+The Idea behind the creation of the project is make better the Accion Microfinance Bank landing page. on the original website, there's no favicon the header is not fixed and at certain screen size the Logo Vanishes. The preceedings are what have corrected so far. 
+
+Also when the User hovers over the Social media icons, the Background-color and color changes to the Accion Color (White and Orange).  please be informed that am not done with this project yet and i will complete it soon. i will include the drop down menu for the header children.
