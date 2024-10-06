@@ -23,6 +23,17 @@ menuBar.addEventListener('click', () => {
   aside.classList.toggle('active');
 });
 
+let cancel = document.querySelector('.close');
+let popover = document.querySelector('.popover');
+
+setTimeout(() => {
+  popover.style.display = 'block';
+ }, 5000);
+
+
+cancel.addEventListener('click', () => {
+  popover.style.display = 'none';
+})
 
 
 
