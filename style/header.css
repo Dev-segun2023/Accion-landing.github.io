@@ -2,16 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:auto;
+  height:80px;
   margin-top: 0px;
   margin-bottom: 5px;
-  /* border: 2px solid black; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
-  background-color: rgb(247, 235, 235)
+  background-color: #FFFFFF; 
 }
 .left{
 /* flex: 1; */
@@ -41,30 +40,49 @@ margin-left: 15px;
 }
 
 
-.right .right-elements{
+
+
+
+ .right-elements{
+  position: relative;
   margin-right: 40px;
   white-space: nowrap;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: orangered;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(234, 118, 0);
+  display: flex;
+
 }
+
+span{
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+
+}
+.right-elements:hover span{
+  opacity: 1;
+}
+
+
+
 
 
 
 @keyframes shake{
   0% { transform: translateY(0); }
-  25% { transform: translateY(-2px); }
-  50% { transform: translateY(2px); }
-  75% { transform: translateY(-2px); }
+  25% { transform: translateY(-1px); }
+  50% { transform: translateY(1px); }
+  75% { transform: translateY(-1px); }
   100% { transform: translateY(0); }
 }
-/* .right .shake .fa-solid:hover{
+ .right .shake .fa-solid:hover{
   animation: shake 0.2s;
   animation-iteration-count: 1;
   font-size: 18px;
   color: red;
-} */
+} 
 .right-elements:hover{
   animation: shake 0.2s;
   animation-iteration-count: 1;

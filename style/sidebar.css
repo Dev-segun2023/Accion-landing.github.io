@@ -1,10 +1,4 @@
-/* 
-.aside{
-  display: none;
-  
-  
-} */
-/*  */
+
 .aside {
   opacity: 0;
   max-height: 0; /* Start with 0 height */
@@ -14,7 +8,7 @@
 
 .aside.active {
   opacity: 1;
-  max-height: 500px; /* Adjust this value based on the actual content height */
+  max-height:500px; /* Adjust this value based on the actual content height */
 }
 
 

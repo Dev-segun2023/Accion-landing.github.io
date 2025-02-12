@@ -30,6 +30,10 @@ setTimeout(() => {
   popover.style.display = 'block';
  }, 5000);
 
+ window.onclick = () => {
+  popover.style.display = 'none';
+}
+
 
 cancel.addEventListener('click', () => {
   popover.style.display = 'none';
